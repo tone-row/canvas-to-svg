@@ -1,5 +1,8 @@
 name: Test, Build, Release
-on: [push]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   test-and-release:
