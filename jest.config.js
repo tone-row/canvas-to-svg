@@ -6,6 +6,7 @@ const config = {
     "<rootDir>/src/**/__tests__/**/*.[jt]s?(x)",
     "<rootDir>/src/**/?(*.)+(spec|test).[jt]s?(x)",
   ],
+  setupFilesAfterEnv: ["<rootDir>/src/setupTests.ts"],
 };
 
 module.exports = config;

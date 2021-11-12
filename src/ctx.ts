@@ -307,7 +307,6 @@ export class CanvasToSvg {
    * @return
    */
   getSvg() {
-    console.log("Pretzels 🥨");
     return this.__root;
   }
 

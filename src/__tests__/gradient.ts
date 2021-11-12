@@ -1,7 +1,7 @@
 import { CanvasToSvg } from "../ctx";
 
 // Not passing because ID changes every time
-test.skip("gradient", () => {
+test("gradient", () => {
   const canvas = new CanvasToSvg();
   canvas.save();
   canvas.strokeStyle = "rgba(0,0,0,0)";
@@ -80,7 +80,7 @@ test.skip("gradient", () => {
       fx="60px"
       fy="60px"
       gradientUnits="userSpaceOnUse"
-      id="xakEeRGlXnXw"
+      id="randomString"
       r="50px"
     >
       <stop
@@ -98,7 +98,7 @@ test.skip("gradient", () => {
       fx="35px"
       fy="145px"
       gradientUnits="userSpaceOnUse"
-      id="LHTruvceaAoE"
+      id="randomString"
       r="25px"
     >
       <stop
@@ -116,7 +116,7 @@ test.skip("gradient", () => {
       <g>
         <path
           d=" M 25 10 L 95 10 Q 110 10 110 25 L 110 95 Q 110 110 95 110 L 25 110 Q 10 110 10 95 L 10 25 Q 10 10 25 10 Z"
-          fill="url(#xakEeRGlXnXw)"
+          fill="url(#randomString)"
           paint-order="fill stroke markers"
           stroke="rgb(0,0,0)"
           stroke-dasharray=""
@@ -127,7 +127,7 @@ test.skip("gradient", () => {
       <g>
         <path
           d=" M 25 120 L 95 120 Q 110 120 110 135 L 110 205 Q 110 220 95 220 L 25 220 Q 10 220 10 205 L 10 135 Q 10 120 25 120 Z"
-          fill="url(#LHTruvceaAoE)"
+          fill="url(#randomString)"
           paint-order="fill stroke markers"
           stroke="rgb(0,0,0)"
           stroke-dasharray=""
