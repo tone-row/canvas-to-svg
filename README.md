@@ -7,6 +7,8 @@ This is port of https://github.com/gliffy/canvas2svg to Typescript. There were a
 - Set up deployment
 - Add @tone-row/cytoscape-svg package
 - Finish moving tests over and delete old tests folder
+- Add github action to run tests
+- Clean up all _any_ types
 
 ## Description
 

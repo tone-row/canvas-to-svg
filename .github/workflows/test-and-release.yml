@@ -1,0 +1,23 @@
+name: Test and Release
+on: [push]
+
+jobs:
+test-and-release:
+    name: Run tests and release
+    runs-on: ubuntu-18.04
+    steps:
+    - name: Checkout
+        uses: actions/checkout@v1
+    - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+        node-version: 14
+    - name: Install dependencies
+        run: yarn
+    - name: Run tests
+        run: yarn test
+    - name: Release
+        env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: yarn semantic-release
