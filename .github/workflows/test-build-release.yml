@@ -1,4 +1,4 @@
-name: Test and Release
+name: Test, Build, Release
 on: [push]
 
 jobs:
@@ -16,6 +16,8 @@ jobs:
         run: yarn
       - name: Run tests
         run: yarn test
+      - name: Build
+        run: yarn build
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
