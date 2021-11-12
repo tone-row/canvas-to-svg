@@ -4,10 +4,7 @@ This is port of https://github.com/gliffy/canvas2svg to Typescript. There were a
 
 ## To Do
 
-- Set up deployment
-- Add @tone-row/cytoscape-svg package
 - Finish moving tests over and delete old tests folder
-- Add github action to run tests
 - Clean up all _any_ types
 
 ## Description
@@ -75,6 +72,12 @@ const ctx = new C2S({ document: document });
 ## Misc
 
 Some canvas 2d context methods are not implemented yet.
+
+## @tone-row/cytoscape-svg
+
+My goals in fixing some of the issues with the original package are specific to using it with [cytoscape.js](https://js.cytoscape.org/). For that reason there is a copy of https://github.com/kinimesi/cytoscape-svg in the /cytoscape-svg directory, which simply uses `canvas-to-svg` (this package) instead of `canvas2svg`.
+
+If the main `cytoscape-svg` package ever begins using this library instead, I will definitely delete that directory and switch back to using that package (https://github.com/kinimesi/cytoscape-svg), but for now this version is published under the scoped name @tone-row/cytoscape-svg.
 
 ## Releasing
 
