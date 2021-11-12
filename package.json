@@ -2,6 +2,9 @@
   "name": "canvas-to-svg",
   "version": "0.0.0-development",
   "description": "canvas-to-svg",
+  "files": [
+    "dist"
+  ],
   "publishConfig": {
     "access": "public",
     "branches": [
