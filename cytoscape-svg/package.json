@@ -1,0 +1,23 @@
+{
+  "name": "@tone-row/cytoscape-svg",
+  "version": "1.0.0",
+  "description": "Add svg exports to cytoscape.js",
+  "main": "cytoscape-svg.js",
+  "repository": "https://github.com/tone-row/canvas-to-svg",
+  "author": "Rob Gordon",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "canvas-to-svg": "^1.0.2"
+  },
+  "peerDependencies": {
+    "cytoscape": "^3.2.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "rollup": "^2.60.0"
+  }
+}
