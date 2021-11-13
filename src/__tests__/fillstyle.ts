@@ -1,4 +1,4 @@
-import { CanvasToSvg } from "../ctx";
+import { CanvasToSvg } from "../CanvasToSvg";
 
 test("fillstyle", () => {
   let canvas = new CanvasToSvg();
