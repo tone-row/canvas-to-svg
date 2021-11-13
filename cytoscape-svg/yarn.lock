@@ -81,10 +81,10 @@ builtin-modules@^3.1.0:
   resolved "https://registry.yarnpkg.com/builtin-modules/-/builtin-modules-3.2.0.tgz#45d5db99e7ee5e6bc4f362e008bf917ab5049887"
   integrity sha512-lGzLKcioL90C7wMczpkY0n/oART3MbBa8R9OFGE1rJxoVI86u4WAGfEk8Wjv10eKSyTHVGkSo3bvBylCEtk7LA==
 
-canvas-to-svg@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/canvas-to-svg/-/canvas-to-svg-1.0.2.tgz#4196c305232af15dce8cc1e206c459ff78d62e19"
-  integrity sha512-zTvwwE2YtWQYOyXrESUc4wJT8jS4aNrOlHvtVUz5VrvtpdSuWy4KI7yV6GQwM2GJygVvtwU8Qdz7SmDz6M/AYg==
+canvas-to-svg@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/canvas-to-svg/-/canvas-to-svg-1.0.3.tgz#91ac34c1b84d5ee59ea098865a7abe07d9ae2bfe"
+  integrity sha512-qWQKPW0lRkOCClRmKtTzC5dNLtdOCzEOPYWASvW9ggkq4cRYL0o8RnC4fPc4tNE5WGm5YzJTGFztFG0JuCGXcQ==
 
 commondir@^1.0.1:
   version "1.0.1"
