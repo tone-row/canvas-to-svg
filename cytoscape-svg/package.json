@@ -7,8 +7,8 @@
   "author": "Rob Gordon",
   "license": "MIT",
   "scripts": {
-    "build": "rollup -c",
-    "publish": "npm publish --access public"
+    "build": "rollup -c -m",
+    "dev": "rollup -c -w -m"
   },
   "dependencies": {
     "canvas-to-svg": "^1.0.3"

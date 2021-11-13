@@ -139,3 +139,4 @@
   module.exports = register;
 
 })();
+//# sourceMappingURL=cytoscape-svg.js.map
