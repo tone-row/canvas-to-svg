@@ -1,4 +1,4 @@
-import { CanvasToSvg } from "../ctx";
+import { CanvasToSvg } from "../CanvasToSvg";
 
 test("linecap", () => {
   const canvas = new CanvasToSvg();
