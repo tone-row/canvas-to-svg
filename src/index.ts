@@ -1,2 +1,2 @@
-import { CanvasToSvg } from "./ctx";
+import { CanvasToSvg } from "./CanvasToSvg";
 export default CanvasToSvg;

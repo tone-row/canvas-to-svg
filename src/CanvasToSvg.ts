@@ -166,14 +166,6 @@ export class CanvasToSvg {
   __applyStyleToCurrentElement(type: "stroke" | "fill") {
     if (!this.__currentElement) return;
     let currentElement = this.__currentElement;
-    const currentStyleGroup = this.__currentElementsToStyle;
-    if (currentStyleGroup) {
-      currentElement.setAttribute(type, "");
-      currentElement = currentStyleGroup.element;
-      currentStyleGroup.children.forEach(function (node) {
-        node.setAttribute(type, "");
-      });
-    }
 
     let keys = Object.keys(STYLES),
       i,
@@ -630,6 +622,7 @@ export class CanvasToSvg {
    * Sets fill properties on the current element
    */
   fill() {
+    debugger;
     if (!this.__currentElement) return;
     if (this.__currentElement.nodeName === "path") {
       this.__currentElement.setAttribute("paint-order", "stroke fill markers");

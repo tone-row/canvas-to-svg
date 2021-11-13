@@ -1,4 +1,4 @@
-import { CanvasToSvg } from "../ctx";
+import { CanvasToSvg } from "../CanvasToSvg";
 
 // Not passing because ID changes every time
 test("gradient", () => {
