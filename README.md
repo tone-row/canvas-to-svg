@@ -1,11 +1,10 @@
 # canvas-to-svg
 
-This is port of https://github.com/gliffy/canvas2svg to Typescript. There were a number of open issues on the original and the most recent commits were in October 2017. I intend to fix issues to the best of my ability and **strongly welcome contributions**!
+This is port of https://github.com/gliffy/canvas2svg to Typescript.
 
-## To Do
+## Maintenance Status
 
-- Finish moving tests over and delete old tests folder
-- Clean up all _any_ types
+This repository is not currently being maintained, and may not be up-to-date with the latest versions of its dependencies or other relevant software. However, we welcome contributions from the community to help improve this repository and keep it up-to-date. If you are interested in contributing, please feel free to submit a pull request or open an issue on this repository.
 
 ## Description
 
